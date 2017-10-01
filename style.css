@@ -154,3 +154,28 @@ body {
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
+
+  .second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 7%;
+    
+  }
+
+  .second-section h1 {
+    font-size: 2.6em;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 17px;
+  }
+
+  .second-section p {
+    font-size: 1em;
+    font-weight: 100;
+    max-width: 551px;
+    text-align: center;
+    margin-bottom: 89px;
+  }
