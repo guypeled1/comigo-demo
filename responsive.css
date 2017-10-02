@@ -1,6 +1,15 @@
+@media screen and (max-width: 1550px) {
+    nav ul li.sub-menu-open ul li{
+        padding: 7% 0 4% 0;
+    }
+}
+
 @media screen and (max-width: 1320px) {
     .first-section h1 {
         font-size: 2.6em;
+    }
+    nav ul li.sub-menu-open ul li {
+        padding: 9% 0 4% 0;
     }
 }
 
@@ -16,6 +25,9 @@
 @media screen and (max-width: 1005px) {
     .second-section h1 {
         font-size: 1.8em;
+    }
+    nav ul li.sub-menu-open ul li {
+        height: 279px;
     }
 }
 
