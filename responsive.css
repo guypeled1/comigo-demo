@@ -1,6 +1,44 @@
+@media screen and (max-width: 1600px) {
+    .small-item ul li {
+        height: 80px;
+        width: 80px;
+    }
+    .small-item ul li a {
+        font-size: 1.2em;
+    }
+
+    .footer-cell {
+        padding: 4% 2%;
+    }
+    .sub-footer {
+        padding: 0 10%;
+    }
+    nav.main-nav ul li.sub-menu-open ul li {
+        height: 200px;
+        padding: 4% 0 4% 0;
+    }
+}
 @media screen and (max-width: 1550px) {
     nav ul li.sub-menu-open ul li{
         padding: 7% 0 4% 0;
+    }
+    .section-three-list {
+        margin-left: 5%;
+    }
+    .learn-title h1 {
+        font-size: 2.5em;
+    }
+    .sub-footer {
+        padding: 0 6%;
+    }
+}
+
+@media screen and (max-width: 1340px) { 
+    nav.main-nav ul li.sub-menu-open ul li {
+        height: 160px;
+    }
+    nav.main-nav ul li.sub-menu-open ul li a {
+        font-size: 43px;
     }
 }
 
@@ -11,6 +49,51 @@
     nav ul li.sub-menu-open ul li {
         padding: 9% 0 4% 0;
     }
+
+    .section-three-list {
+        margin-left: 9%;
+    }
+    .item-content {
+        width: 37%;
+        right: 31px;
+    }
+
+    .small-item ul li {
+        height: 65px;
+        width: 65px;
+        padding-top: 19px;
+    }
+    .small-item ul li a {
+        font-size: 1em;
+    }
+    .sub-footer {
+        padding: 0;
+    }
+    .section-three {
+        height: 650px;
+    }
+    .section-three h1 {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-three {
+        height: 673px;
+        padding: 30px 10% 45%;
+    }
+    .footer-cell {
+        padding: 4% 0;
+    }
+    .item-list-title {
+        font-size: 1em;
+    }
+    .section-three {
+        height: 630px;
+    }
+    .item-content {
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (max-width: 1188px) {
@@ -19,6 +102,31 @@
     }
     .second-section p {
         font-size: 0.95em;
+    }
+    .section-four-item {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .learn-title h1 {
+        font-size: 2em;
+    }
+    .small-item ul li {
+        height: 50px;
+        width: 50px;
+        padding-top: 11px;
+    }
+    .section-three {
+        height: 530px;
+    }
+    .item-content img {
+        margin-top: 23px;
+        width: 68%;
+    }
+    .item-content p {
+        text-align: center;
+    }
+    .section-three h1 {
+        font-size: 1.2em;
     }
 }
 
@@ -38,6 +146,9 @@
     .button { 
         font-size: 0.55em;
     }
+    .section-three {
+        height: 494px;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -46,6 +157,24 @@
     }
     .second-section h1 {
         font-size: 1.5em;
+    }
+    .section-three {
+       flex-direction: column;
+       height: auto;
+    }
+    .title-content {
+        width: 100%;
+    }
+    .section-three-list {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .section-three div ul li div.item-content {
+        left: 21px;;
+        right: auto;
+        top:auto;
+        bottom: 0px;
     }
 }
 

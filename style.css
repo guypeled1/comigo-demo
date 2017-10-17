@@ -190,6 +190,7 @@ body {
   }
 
 .section-three {
+  height: 720px;
   display: flex;
   position: relative;
   box-sizing: border-box;
@@ -282,10 +283,11 @@ body {
   text-align: center;
   padding: 5% 9%;
   box-sizing: border-box;
+  width: 50%;
 }
 
 .section-four-item h1 {
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 300;
   text-align: left;
 }
@@ -479,6 +481,7 @@ ul.footer-nav-list {
   flex-basis: 100%;
   padding: 4% 10%;
   box-sizing: border-box;
+  background: #1c1e20;
 }
 
 .footer-nav-list > li {
