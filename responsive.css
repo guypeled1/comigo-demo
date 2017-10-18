@@ -179,7 +179,7 @@
 }
 
 
-@media screen and (max-width: 814px) {
+@media screen and (max-width: 815px) {
     .first-section h1 {
         font-size: 2.0em;
     }
@@ -189,6 +189,76 @@
     .second-section p {
         font-size: 0.92em;
     }
+    nav.main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+      }
+      .mobile-label {
+        transform: rotate(90deg);
+        display: block;
+        transition: all 0.2s;
+      }
+     
+      .mobile-label::before {
+         content:" |||";
+         font-size: 1.5em;
+         font-weight: 800;
+
+      }
+      #mobile-menu {
+          display: none;
+      }
+      input#mobile-menu:checked ~ label{
+           color: red;
+           transform: rotateZ(90deg);
+      }
+      input#mobile-menu:checked ~ label::before {
+          content: "X";
+          font-weight: 400;
+          font-size: 2em;
+      }
+      .mobile-nav-list {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: white;
+        left: 0;
+        margin: 0;
+        list-style-type: none;
+        padding-bottom: 13px;
+        z-index: 90;
+      }
+      .mobile-nav-list  a {
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 300;
+        color: #3d3d3d;
+        text-decoration: none;
+      }
+      .mobile-nav-list ul {
+        list-style-type: none; 
+      }
+      .mobile-nav-list ul  li, .mobile-nav-list li {
+        margin: 14px 0;
+        position: relative;
+      }
+
+      .mobile-nav-list ul  li::before {
+          content: "-";
+          color: #3d3d3d;
+          position: absolute;
+          left: -11px;
+      }
+
+      .mobile-nav-list  a:hover {
+          color: #f14848;
+      }
+      input#mobile-menu:checked ~ .mobile-nav-list{
+        display: block;
+   }
+      
 }
 
 @media screen and (max-width: 753px) {

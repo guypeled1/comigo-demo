@@ -56,6 +56,11 @@ body {
     display: flex;
     align-items: center;
   }
+
+  .mobile-nav, .mobile-nav-list {
+    display: none;
+  }
+
   nav.main-nav {
     height: 100%;
   }
