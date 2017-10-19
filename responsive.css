@@ -40,6 +40,10 @@
     nav.main-nav ul li.sub-menu-open ul li a {
         font-size: 43px;
     }
+    .brain-img {
+        width: 230px;
+        height: 200px;
+      }
 }
 
 @media screen and (max-width: 1320px) {
@@ -128,6 +132,13 @@
     .section-three h1 {
         font-size: 1.2em;
     }
+    .sub-footer {
+        flex-direction: column;
+    }
+    .social-cell ul {
+        text-align: center;
+        padding-left: 0;
+    }
 }
 
 @media screen and (max-width: 1005px) {
@@ -201,18 +212,25 @@
         transition: all 0.2s;
       }
      
+      .mobile-label:hover {
+        transform: rotate3d(1,1,0,180deg);
+      }
+
       .mobile-label::before {
          content:" |||";
          font-size: 1.5em;
          font-weight: 800;
+         color: #3d3d3d;
 
+      }
+      .mobile-label:hover::before {
+        color: red;
       }
       #mobile-menu {
           display: none;
       }
       input#mobile-menu:checked ~ label{
-           color: red;
-           transform: rotateZ(90deg);
+        color: #3d3d3d;
       }
       input#mobile-menu:checked ~ label::before {
           content: "X";
@@ -258,7 +276,27 @@
       input#mobile-menu:checked ~ .mobile-nav-list{
         display: block;
    }
-      
+
+.brain-img {
+    width: 50%;
+    height: auto;
+}
+.section-four-item:last-child {
+    text-align: center;
+}
+.main-footer {
+    flex-direction: column;
+}
+.footer-cell img {
+    float: none;
+}
+.footer-cell:nth-child(2){
+    text-align: center;
+    padding-right:0;
+} 
+.footer-cell:first-child {
+    text-align: center;
+}  
 }
 
 @media screen and (max-width: 753px) {
@@ -272,4 +310,42 @@
         margin-right: 15px;
     }
 }
+
+@media screen and (max-width: 700px) { 
+    .social-cell ul li {
+        width: 100%;
+        font-size: 1.1em;
+        margin-top: 7px;
+    }
+    .social-cell ul li:not(:first-child)::before {
+        content: " ";
+        display: none;
+    }
+}
+
+@media screen and (max-width: 495px) { 
+    .footer-cell:first-child {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {  
+    .footer-right p {
+        width: 100%;
+        float: right;
+        text-align: center;
+        
+    }
+    .footer-right ul {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.footer-nav-list {
+        padding-left: 0;
+    }
+
+}
+
 
