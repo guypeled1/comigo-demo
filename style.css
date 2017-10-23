@@ -484,6 +484,7 @@ ul.footer-nav-list li a {
 
 ul.footer-nav-list {
   list-style-type: none;
+  display: flex;
 }
 
 .main-footer{
@@ -504,9 +505,6 @@ ul.footer-nav-list {
   padding: 4% 10% 4% 0;
 }
 
-.footer-nav-list > li {
-  display: inline-block;
-}
 
 .footer-nav-list li ul {
   min-height: 100px;
