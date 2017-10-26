@@ -165,6 +165,12 @@
     .learn-title h1 {
         font-size: 1.5em;
     }
+    .section-five-right img {
+        width: 30%;
+    }
+    .section-five-right a h1 {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 1005px) {
@@ -203,6 +209,7 @@
 }
 
 @media screen and (max-width: 840px) {
+
     nav ul li a {
         font-size: .5em;
     }
@@ -212,6 +219,7 @@
     .section-three {
        flex-direction: column;
        height: auto;
+       padding: 30px 10% 70%;
     }
     .title-content {
         width: 100%;
@@ -221,11 +229,14 @@
         margin-left: 0;
         padding-left: 0;
     }
+    .section-three div ul {
+        padding-left: 0;
+    }
     .section-three div ul li div.item-content {
         left: 21px;;
         right: auto;
         top:auto;
-        bottom: 0px;
+        bottom: 91px;
     }
 
     .section-three div ul li video {
@@ -332,6 +343,15 @@
 .main-footer {
     flex-direction: column;
 }
+.footer-cell:first-child {
+    padding: 4% 0 4% 0%;
+}
+ul.footer-nav-list {
+    padding-left: 0;
+}
+.footer-nav-list li ul {
+    padding-left: 0;
+}
 .footer-cell img {
     float: none;
 }
@@ -356,7 +376,13 @@
     }
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 700px) {
+    .section-five-right a h1 {
+        font-size: 1.5em;
+    }
+    .section-five-right img {
+        width: 78%;
+    } 
     .social-cell ul li {
         width: 100%;
         font-size: 1.1em;
@@ -382,7 +408,25 @@
     .footer-cell:first-child {
         padding-left: 0;
     }
-    
+
+    .section-three div ul li div.item-content {
+        bottom: 50px;
+    }
+    .section-three {
+        padding: 30px 10% 98%;
+    }
+    .item-content {
+        font-size: 0.65em;
+    }
+    .section-three div ul {
+        margin-top: 0;
+    }
+    .section-three div ul li div.item-content {
+        bottom: 20px;
+    }
+    .item-list-title {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-width: 400px) {  
